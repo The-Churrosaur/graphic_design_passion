@@ -1,0 +1,35 @@
+body
+{
+    background-color: gray;
+    background-image: url('https://img.freepik.com/premium-vector/abstract-sky-pastel-rainbow-gradient-background-ecology-concept-your-graphic-design_29865-1661.jpg?w=2000');
+}
+
+.border_container
+{
+    border: 3px solid white;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding: 3vw;
+    border-radius: 5px;
+}
+
+.my_heading
+{
+    font-family: sans-serif;
+}
+
+h3
+{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: darkmagenta;
+}
+
+.my_div
+{
+    background-color: royalblue;
+    margin: 5vw;
+    padding: 1em 0 1em 5em;
+    border-radius: 5px;
+}
