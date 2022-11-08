@@ -20,16 +20,21 @@ body
     font-family: sans-serif;
 }
 
-h3
-{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: darkmagenta;
-}
-
 .my_div
 {
     background-color: royalblue;
     margin: 5vw;
     padding: 1em 0 1em 5em;
     border-radius: 5px;
+}
+
+#cat_div
+{
+    background-image: url('https://cdn.discordapp.com/attachments/621586338759835668/1037945889559416882/Screenshot_20221103-212440_Discord.jpg');
+}
+
+#title
+{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    /* color: darkmagenta; */
 }

@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
         clock.innerHTML = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
     }, 1000);
 
-    // change text's color
+    // change tile's color on a timer
     setInterval(() => {
         let random_color = Math.floor(Math.random()*16777215).toString(16);
-        let text = document.querySelector("#text");
-        if (text)
-            text.style.color = "#" + random_color
+        let title = document.querySelector("#title");
+        if (title)
+            title.style.color = "#" + random_color;
     }, 100);
 });
